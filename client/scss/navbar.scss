@@ -1,0 +1,22 @@
+.navbar {
+
+  .container {
+
+    .navbar-header {
+
+      .navbar-brand {
+        @media screen and (max-width: 767px) {
+          margin-left: 50px !important;
+        }
+
+        @media screen and (max-width: 991px) and (min-width: 767px) {
+          margin-left: 20px !important;
+        }
+
+        @media screen and (min-width: 991px) {
+          margin-left: 10px !important;
+        }
+      }
+    }
+  }
+}
